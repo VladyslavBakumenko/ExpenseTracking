@@ -1,4 +1,4 @@
-package com.example.expensetracking.data.entity
+package com.example.expensetracking.domain.entity
 
 enum class ExpenseType {
     Groceries, Taxi, Electronics, Restaurant, Other
