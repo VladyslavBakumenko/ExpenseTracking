@@ -1,4 +1,4 @@
-package com.example.expensetracking.data.api.network
+package com.example.expensetracking.data.network.api
 
 import retrofit2.http.GET
 import retrofit2.http.Path

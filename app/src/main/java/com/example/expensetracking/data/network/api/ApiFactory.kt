@@ -1,6 +1,5 @@
-package com.example.expensetracking.data.api.network
+package com.example.expensetracking.data.network.api
 
-import com.arkivanov.mvikotlin.core.BuildConfig
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

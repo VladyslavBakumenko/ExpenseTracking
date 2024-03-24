@@ -1,4 +1,4 @@
-package com.example.expensetracking.data.dto
+package com.example.expensetracking.data.network.dto
 
 import com.google.gson.annotations.SerializedName
 
