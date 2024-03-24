@@ -1,4 +1,4 @@
-package com.example.expensetracking.ui.theme
+package com.example.expensetracking.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

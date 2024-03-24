@@ -24,11 +24,11 @@ espresso-core = { group = "androidx.test.espresso", name = "espresso-core", vers
 lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
 activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
 compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
-mvikotlin-core = { group = "com.arkivanov.mvikotlin:mvikotlin", name ="mvikotlin", version.ref = "mvikotlin" }
-mvikotlin-main = { group = "com.arkivanov.mvikotlin:mvikotlin", name ="mvikotlin-main", version.ref = "mvikotlin" }
-mvikotlin-coroutines = { group = "com.arkivanov.mvikotlin:mvikotlin", name ="mvikotlin-extensions-coroutines", version.ref = "mvikotlin" }
-decompose-core = { group = "com.arkivanov.mvikotlin:decompose", name ="decompose", version.ref = "decompose" }
-decompose-jetpack = { group = "com.arkivanov.mvikotlin:decompose", name ="extensions-compose-jetpack", version.ref = "decompose" }
+mvikotlin-core = { group = "com.arkivanov.mvikotlin", name = "mvikotlin", version.ref = "mvikotlin" }
+mvikotlin-main = { group = "com.arkivanov.mvikotlin", name = "mvikotlin-main", version.ref = "mvikotlin" }
+mvikotlin-coroutines = { group = "com.arkivanov.mvikotlin", name = "mvikotlin-extensions-coroutines", version.ref = "mvikotlin" }
+decompose-core = { group = "com.arkivanov.decompose", name = "decompose", version.ref = "decompose" }
+decompose-jetpack = { group = "com.arkivanov.decompose", name = "extensions-compose-jetpack", version.ref = "decompose" }
 room-core = { group = "androidx.room", name ="room-ktx", version.ref = "room" }
 room-compiler = { group = "androidx.room", name ="room-compiler", version.ref = "room" }
 hilt-core = { group = "com.google.dagger", name ="hilt-android", version.ref = "hilt" }
