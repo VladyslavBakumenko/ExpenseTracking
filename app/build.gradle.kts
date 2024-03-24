@@ -2,16 +2,18 @@
 plugins {
     alias(libs.plugins.com.android.application)
     alias(libs.plugins.org.jetbrains.kotlin.android)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.parcelize)
 }
 
 android {
     namespace = "com.example.expensetracking"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.expensetracking"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -67,4 +69,26 @@ dependencies {
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
+
+    //mvi kotlin
+    implementation(libs.mvikotlin.core)
+    implementation(libs.mvikotlin.main)
+    implementation(libs.mvikotlin.coroutines)
+
+    //decompose
+    implementation(libs.decompose.core)
+    implementation(libs.decompose.jetpack)
+
+    //room
+    implementation(libs.room.core)
+    ksp(libs.room.core)
+
+    //hilt
+    implementation(libs.hilt.core)
+    ksp(libs.hilt.compiler)
+
+    //retrofit
+    implementation(libs.retrofit.core)
+    implementation(libs.retrofit.gsonConverter)
+
 }
