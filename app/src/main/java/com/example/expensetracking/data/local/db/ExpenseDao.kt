@@ -13,5 +13,5 @@ interface ExpenseDao {
     fun addExpense(expense: ExpenseDBModel)
 
     @Query("SELECT * FROM expense")
-    fun getAllExpense(): Flow<List<ExpenseDBModel>>
+    fun getAllExpenses(): Flow<List<ExpenseDBModel>>
 }
